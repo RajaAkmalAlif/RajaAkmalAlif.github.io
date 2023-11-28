@@ -1,0 +1,49 @@
+.sosmed-section {
+    background-color: #343a40; /* Dark background color for the sosmed section */
+    color: #ffffff; /* Light text color */
+    padding: 40px; /* Add padding to the section */
+  }
+
+  .shiny-text {
+    animation: shineText 1.5s ease-out infinite;
+  }
+
+  @keyframes shineText {
+    0% {
+      color: #ffffff;
+    }
+    50% {
+      color: #ffd700; /* Shiny color, adjust as needed */
+    }
+    100% {
+      color: #ffffff;
+    }
+  }
+
+  .animated-text {
+    animation: fadeInUp 1s ease-out;
+  }
+
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .mb-4 {
+    margin-bottom: 20px; /* Increase margin for larger font size */
+    font-size: 19px; /* Adjust font size as needed */
+  }
+
+  /* Custom styles for small screens (phones) */
+  @media (max-width: 767px) {
+    .col-image {
+      order: -1; /* Move the column with the image to the top */
+      margin-bottom: 20px; /* Add margin for better spacing */
+    }
+  }
