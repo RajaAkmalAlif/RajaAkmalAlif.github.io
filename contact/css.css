@@ -1,0 +1,87 @@
+/* Styles for the entire body */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    /* Light gray background color */
+}
+
+/* Styles for the form with a specific class */
+.contact-form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    /* White background color */
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover effect for the form */
+.contact-form:hover {
+    transform: scale(1.02);
+    /* Scale up on hover for a subtle effect */
+}
+
+/* Styles for the form heading */
+.contact-form h1 {
+    color: #007bff;
+    /* Primary color for the heading */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Styles for form labels */
+.contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #495057;
+    /* Dark gray text color */
+}
+
+/* Styles for form inputs and textarea */
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ced4da;
+    /* Light gray border */
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Styles for the form button */
+.contact-form button {
+    background-color: #007bff;
+    /* Primary color */
+    color: #fff;
+    /* White text color */
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Hover effect for the form button */
+.contact-form button:hover {
+    background-color: #0056b3;
+    /* Darker primary color on hover */
+}
+
+/* Custom styles for small screens (phones) */
+@media (max-width: 767px) {
+    .col-image {
+      order: -1; /* Move the column with the image to the top */
+      margin-bottom: 20px; /* Add margin for better spacing */
+    }
+  }
+
+  .contact-section {
+    background-color: #343a40; /* Dark background color for the about section */
+    color: #ffffff; /* Light text color */
+    padding: 40px; /* Add padding to the section */
+  }
